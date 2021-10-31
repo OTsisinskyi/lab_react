@@ -1,0 +1,57 @@
+.parkInfoContent {
+    margin-top: 5px;
+    border: 2px solid green;
+    background-color: #eace3d;
+
+}
+
+.parkInfoContent img {
+    border: 2px solid green;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 3px;
+    background-color: rgb(112, 160, 57);
+    margin-bottom: 30px;
+}
+
+.content {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #70a039;
+    border-radius: 20px;
+}
+
+.content p {
+    font-size: 20px;
+    color: black;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    padding: 30px;
+}
+
+.mainContent {
+    display: flex;
+    border-radius: 20px;
+    border-bottom: 2px solid green;
+}
+
+.mainInfo {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.mainInfo h2 {
+    font-weight: 700;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+}
+
+.someInfo p {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.foto img {
+    max-width: 400px;
+}

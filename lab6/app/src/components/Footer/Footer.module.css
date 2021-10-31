@@ -1,27 +1,32 @@
-.footer{
+.footer {
     margin-top: 5px;
     width: 100%;
     height: auto;
     background-color: green;
     text-align: center;
 }
-.name{
+
+.name {
     font-size: 40px;
     color: white;
     border-bottom: 1px solid white;
 }
-.soc{
+
+.soc {
     height: 35px;
     weight: 35px;
 }
-.social a{
+
+.social a {
     margin: 30px;
-    border:white;
+    border: white;
 }
-.soc:hover{
-   border-bottom: 1px solid white;
+
+.soc:hover {
+    border-bottom: 1px solid white;
 }
-.Copyright{
+
+.Copyright {
     margin-top: 10px;
     color: white;
 }

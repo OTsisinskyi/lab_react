@@ -1,29 +1,38 @@
-a{
+a {
     color: white;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: white;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     background-color: green;
     color: white;
     font-size: 25px;
+    margin-top: 5px;
 }
 
-.header_section{
+.header_section {
     display: flex;
     align-items: center;
 }
-.name{
+
+.name {
     font-size: 30px;
 }
-.item{
+
+.item {
     margin-right: 100px;
 }
-.item:hover{
+
+.item a.active {
+    color: #eace3d;
     border-bottom: 1px solid white;
 }
+
+

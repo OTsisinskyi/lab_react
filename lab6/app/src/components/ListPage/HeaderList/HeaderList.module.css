@@ -1,0 +1,21 @@
+.listPageFilter {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #eace3d;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.filter {
+    display: flex;
+    padding-right: 20px;
+}
+
+.inputSearch {
+    display: flex;
+}
+
+.header {
+    margin-top: 5px;
+}
