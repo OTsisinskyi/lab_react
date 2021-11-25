@@ -2,10 +2,12 @@ import style from "./Intro.module.css"
 import Cards from "../Card";
 import IntroButton from "./IntroButton";
 import {NavLink} from "react-router-dom";
+import axios from "axios";
+import {useEffect, useState} from "react";
 
 
-const Intro = (props) => {
-    let threeCardData = props.cardData.slice(0, 3)
+const Intro = ({parkData}) => {
+    let threeCardData = parkData.slice(0, 3)
     let park = threeCardData.map(element => <Cards id={element.id}
                                                    src={element.src}
                                                    title={element.title}

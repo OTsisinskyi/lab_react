@@ -9,13 +9,19 @@
 
 .filter {
     display: flex;
-    padding-right: 20px;
+    margin-left: 75px;
 }
 
 .inputSearch {
     display: flex;
+    padding-right: 30px;
 }
 
 .header {
     margin-top: 5px;
+}
+.clipLoader{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }

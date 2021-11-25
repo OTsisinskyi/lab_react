@@ -3,8 +3,7 @@ import Cards from "../../../Card";
 import "./ContentList.css"
 
 
-const ContentList = (props) => {
-
+const Catalog = (props) => {
     let park = props.filteredParks.map(element => <Cards id={element.id}
                                                     src={element.src}
                                                     title={element.title}
@@ -26,4 +25,4 @@ const ContentList = (props) => {
     );
 };
 
-export default ContentList;
+export default Catalog;
