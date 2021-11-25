@@ -1,0 +1,28 @@
+.visually-hidden {
+    background-color: green;
+}
+
+.contentList {
+    background-color: green;
+}
+
+.carousel {
+    background-color: #198754;
+    margin-top: 5px;
+    height: 530px;
+
+}
+
+.container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.carousel-control-prev {
+    left: -70px;
+}
+
+.carousel-control-next {
+    right: -70px;
+}
