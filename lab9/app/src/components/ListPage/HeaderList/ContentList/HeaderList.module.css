@@ -1,0 +1,27 @@
+.listPageFilter {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #eace3d;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.filter {
+    display: flex;
+    margin-left: 75px;
+}
+
+.inputSearch {
+    display: flex;
+    padding-right: 30px;
+}
+
+.header {
+    margin-top: 5px;
+}
+.clipLoader{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
